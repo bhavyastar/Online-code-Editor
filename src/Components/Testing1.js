@@ -1,7 +1,7 @@
 import React from 'react'
 import img from "../Images/Logo.png"
 import "./testing1.css"
-import  ReactPlayer from "react-player";
+import ReactPlayer from "react-player";
 
 
 function Testing1(props) {
