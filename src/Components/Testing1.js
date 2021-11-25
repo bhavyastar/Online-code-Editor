@@ -13,7 +13,7 @@ function Testing1(props) {
             </div>
             <div className="video_player_1">
             <ReactPlayer
-  url='https://youtu.be/1rTaNzjGOek'
+  url='https:/youtu.be/1rTaNzjGOek'
   playing
   muted
   config={{ file: { attributes: {
