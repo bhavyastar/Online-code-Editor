@@ -78,13 +78,21 @@
     width: 100px;
     position: absolute;
     margin-top:21%;
-    background-color:red;
+    background:red;
     color: white;
     border-radius:5px;
     border-style:solid;
+    border-color:white;
     font-size:1.5rem;
     font-family: 'Varela Round', sans-serif;
     margin-left: 6%;
+}
+
+.login_btn:hover{
+    background:white;
+    color: red;
+    border-style:solid;
+    border-color:red
 }
 
 .twitter{
@@ -143,4 +151,24 @@
     width:30px;
     position: absolute;
     margin-left: -17%;
+}
+
+.twitter:hover{
+    background: white;
+    color: #60b5f0;
+    border-style: solid;
+    border-color:#60b5f0;
+}
+
+.facebook:hover{
+    background: white;
+    color: #4464a2;
+    border-style: solid;
+    border-color:#4464a2;
+}
+.github:hover{
+    background: white;
+    color: gray;
+    border-style: solid;
+    border-color:gray;
 }

@@ -24,11 +24,16 @@
     height:50px;
     width: 100px;
     color: black;
-    background-color:yellow;
+    background:yellow;
     position: absolute;
     margin-left: 80%;
     border-radius:5px;
     margin-top:3%;
     font-size:1.3rem;
     font-family: 'Varela Round', sans-serif;
+}
+.signup_btn:hover{
+    background: red;
+    color: yellow;
+    border-color: yellow;
 }
