@@ -18,22 +18,44 @@ function Testing1(props) {
             </div>
             <div className="video_player_1">
             <ReactPlayer
-  url='https:/youtu.be/1rTaNzjGOek'
+            width={"450px"}
+            height={"400px"}
+  url='https://youtu.be/1rTaNzjGOek'
   playing
   muted
   config={{ file: { attributes: {
     autoPlay: true,
     muted: true
+    
+
   }}}}
 />
 <div className="video_player_2">
 <ReactPlayer
+width={"400px"}
+height={"400px"}
   url='https://youtu.be/S8yn3-WpVV8'
   playing
   muted
   config={{ file: { attributes: {
     autoPlay: true,
     muted: true
+    
+  }}}}
+/>
+</div>
+<div className="video_player_3">
+<ReactPlayer
+width={"400px"}
+height={"400px"}
+  url='https://youtu.be/hQAHSlTtcmY'
+  playing
+  muted
+  config={{ file: { attributes: {
+    autoPlay: true,
+    muted: true,
+    pip:true
+    
   }}}}
 />
 </div>
@@ -45,5 +67,4 @@ function Testing1(props) {
 }
 
 export default Testing1
-
 
