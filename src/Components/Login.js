@@ -6,6 +6,8 @@ import Header_Login from "./Header_Login"
 import twitter from "../Images/twitter.png"
 import github from "../Images/github.png"
 import facebook from "../Images/facebook.png"
+import google from "../Images/google.png"
+import vid from "../Videos/Dark Motion Polygon   Free Animation Loop Background and Screensaver.mp4"
 
 const Login = () => {
 
@@ -21,6 +23,9 @@ const Login = () => {
   }
     return (
       <div className="container_body">
+        <video autoPlay loop muted>
+          <source src={vid} type="video/mp4" />
+        </video>
         <Header_Login />
           <div className="Login">
             <Form onSubmit={handleSubmit}>
@@ -47,6 +52,7 @@ const Login = () => {
                 Login
               </Button>
           </Form>
+          <Button className="google"><img className="facebook_logo" src={google} alt="" srcset="" />Log In with Google</Button>
           <Button className="twitter"><img className="twitter_logo" src={twitter} alt="" srcset="" /> Log In with Twitter</Button>
           <Button className="github"><img className="github_logo" src={github} alt="" srcset="" />Log In with GitHub</Button>
           <Button className="facebook"><img className="facebook_logo" src={facebook} alt="" srcset="" />Log In with Facebook</Button>
