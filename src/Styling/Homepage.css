@@ -5,13 +5,15 @@
  margin-left: 4%;
 margin-top: 6%;
   }
-.btn{
+.unique{
 word-spacing: 20px;
 border-width: 6px;
 font-family: 'Freckle Face', cursive;
-border-color: aqua;
+border-radius: 2px;
+
 border-width: 4px;
 animation: border 2s infinite;
+background-color: black;
 /* animation: border 2s alternate-reverse infinite; */
 }
 
@@ -20,15 +22,17 @@ font-size: 5rem;
 display: inline-block;
 animation: move 2s linear 1;
 font-weight: 50;
-color: rgb(0, 132, 255);
+color: white;
 letter-spacing: 8px;
 border-width: 10px;
+
 
 
 /* animation: border 4s linear infinite; */
 }
  @keyframes border{
    from{border-color:aqua;}
+   to{border-color: red;}
 }
     
     

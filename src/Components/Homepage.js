@@ -8,7 +8,7 @@ import "../Styling/Homepage.css"
      return (
      <div> 
      <div class="words word-1">
-   <button className="btn">  
+   <button className="unique">  
   <span>C</span>
   <span>o</span>
   <span>d</span>
@@ -23,6 +23,12 @@ import "../Styling/Homepage.css"
   </button>
 
 </div>
+<button className="login1">
+  Login
+</button>
+<button className="login2">
+  Sign-up
+</button>
     </div>
      );
  }
