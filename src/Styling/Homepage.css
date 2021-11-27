@@ -5,11 +5,14 @@
  margin-left: 4%;
 margin-top: 6%;
 }
-button{
+.btn{
 word-spacing: 20px;
 border-width: 6px;
 font-family: 'Freckle Face', cursive;
-
+border-color: aqua;
+border-width: 4px;
+animation: border 2s infinite;
+/* animation: border 2s alternate-reverse infinite; */
 }
 .words span {
 font-size: 5rem;
@@ -19,6 +22,12 @@ font-weight: 50;
 color: rgb(0, 132, 255);
 letter-spacing: 8px;
 border-width: 10px;
+
+
+/* animation: border 4s linear infinite; */
+}
+ @keyframes border{
+   from{border-color:aqua;}
 }
     
     

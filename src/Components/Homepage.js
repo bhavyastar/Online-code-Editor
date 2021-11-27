@@ -8,7 +8,7 @@ import "../Styling/Homepage.css"
      return (
      <div> 
      <div class="words word-1">
-   <button>  
+   <button className="btn">  
   <span>C</span>
   <span>o</span>
   <span>d</span>
