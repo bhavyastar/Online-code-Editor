@@ -154,18 +154,8 @@
     margin-top:40%;
 }
 
-.twitter_logo{
-    width:30px;
-    position: absolute;
-    margin-left: -17%;
-}
-.github_logo{
-    width:30px;
-    position: absolute;
-    margin-left: -17%;
-}
-.facebook_logo{
-    width:30px;
+.logos{
+    width:25px;
     position: absolute;
     margin-left: -17%;
 }
@@ -203,4 +193,35 @@ video {
     position: fixed;
     top: 0;
     left: 0;
+  }
+
+  @media only screen and (max-width:1250px){
+    .google{
+        margin-left: 18%;
+        width:15%;
+        font-size: 70%;
+    }
+
+    .twitter{
+        margin-left: 34%;
+        width:16%;
+        font-size:80%;
+    }
+
+    .github{
+        margin-left: 51%;
+        width:16%;
+        font-size:80%;
+    }
+
+    .facebook{
+        margin-left: 68%;
+        width:16%;
+        font-size:70%;
+    }
+
+    .logos{
+        width: 20px;
+        margin-left: -20%;
+    }
   }
