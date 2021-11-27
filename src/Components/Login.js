@@ -52,10 +52,10 @@ const Login = () => {
                 Login
               </Button>
           </Form>
-          <Button className="google"><img className="facebook_logo" src={google} alt="" srcset="" />Log In with Google</Button>
-          <Button className="twitter"><img className="twitter_logo" src={twitter} alt="" srcset="" /> Log In with Twitter</Button>
-          <Button className="github"><img className="github_logo" src={github} alt="" srcset="" />Log In with GitHub</Button>
-          <Button className="facebook"><img className="facebook_logo" src={facebook} alt="" srcset="" />Log In with Facebook</Button>
+          <Button className="google"><img className="logos" src={google} alt="" srcset="" />Log In with Google</Button>
+          <Button className="twitter"><img className="logos" src={twitter} alt="" srcset="" /> Log In with Twitter</Button>
+          <Button className="github"><img className="logos" src={github} alt="" srcset="" />Log In with GitHub</Button>
+          <Button className="facebook"><img className="logos" src={facebook} alt="" srcset="" />Log In with Facebook</Button>
           </div>
         </div>
     );
