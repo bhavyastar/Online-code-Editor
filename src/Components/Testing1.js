@@ -4,8 +4,13 @@ import "./testing1.css"
 import ReactPlayer from "react-player";
 
 
+
+
 function Testing1(props) {
     return (
+      
+
+     
         <div className="testing1">
             <div className="lines">
                 <h1 className="first">Wanna do coding together</h1>
@@ -35,6 +40,7 @@ function Testing1(props) {
             </div>
             
         </div>
+      
     )
 }
 
