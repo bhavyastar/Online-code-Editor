@@ -1,7 +1,7 @@
 import React from 'react'
 import {Button} from 'react-bootstrap'
 import "../Styling/Homepage.css"
-
+import {Link } from "react-location"
 
 
  const Homepage = () => {
@@ -23,9 +23,10 @@ import "../Styling/Homepage.css"
   </button>
 
 </div>
-<button className="login1">
+<Link to="/login"><button className="login1">
   Login
 </button>
+</Link>
 <button className="login2">
   Sign-up
 </button>
