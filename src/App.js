@@ -1,23 +1,16 @@
 import React from "react";
 import "./Styling/App.css"
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Login from "./Components/Login"
-import Testing1 from "./Components/Testing1";
-import Homepage from "./Components/Homepage"
-import Header from "./Components/Header";
+import { Router, Outlet } from 'react-location';
+import {routes, location } from "./Components/router"
+
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-      <Route exact path="/login" element={<Login />}/>
-      <Route exact path="/header" element={<Header />}/>
-      </Routes>
+    <Router routes={routes} location={location}>
     <div>
-      <Testing1/>
-      <Homepage/>
+        <Outlet />
       </div>
-      </BrowserRouter>
+      </Router>
   );
 }
 
