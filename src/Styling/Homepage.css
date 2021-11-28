@@ -5,7 +5,7 @@
 
 .wrapper {
   height: 10%;
-  margin-top: 3%;
+  margin-top: 20%;
   /*This part is important for centering*/
   display: flex;
   align-items: center;
@@ -38,33 +38,70 @@
     border-color: transparent
   }
 }
-.login1{
-height:45px;
-width: 150px;
-font-family: 'Aclonica', sans-serif;
-background: red;
-color: white;
-border-color: black ;
-border-radius:9px;
-border-style:2px solid;
-border-width: 4px;
-font-size:1.5rem;
-margin-left: 2%;
-}
-.login2{
+
+.login {
+  background: #2C394B;
+  border-radius: 12px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+  margin-left: 10%;
+  margin-top: 4%;
   
-    height:45px;
-    width: 150px;
-    font-family: 'Aclonica', sans-serif;
-    background: red;
-    color: white;
-    border-color: black ;
-    border-radius:9px;
-    border-style:2px solid;
-    border-width: 4px;
-    font-size:1.5rem;
-    margin-left: 2%;
-    
+}
+.front {
+  display: block;
+  padding: 12px 42px;
+  border-radius: 5px;
+  font-size: 3rem;
+  background: #6D9886;
+  color: white;
+  transform: translateY(-6px);
+  font-family: 'Aclonica', sans-serif;
+  width:120px;
+  height:50px;
+  
+  margin-top:2%;
+  
+ 
+}
+.login-a{
+  width:120%;
+  margin-left:-9%;
+  padding-right:2%;
+}
+.signup-a{
+margin-left:-13%;
+
 }
 
+.login:active .front , .sign-up:active .front1{
+  transform: translateY(-2px);
+}
+.sign-up{
+  background: #2C394B;
+  border-radius: 12px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+  margin-left: 2%;
+  margin-top: 4%;
+  
+}
+.front1 {
+  display: block;
+  padding: 12px 42px;
+  border-radius: 5px;
+  font-size: 3rem;
+  background: #6D9886;
+  color: white;
+  transform: translateY(-6px);
+  font-family: 'Aclonica', sans-serif;
+  width:140px;
+  height:50px;
+  margin-top:2%;
+ 
+}
 

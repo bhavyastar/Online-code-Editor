@@ -12,13 +12,18 @@ import {Link } from "react-location"
       CodeYourWay
     </div>
 </div>
-<Link to="/login"><button className="login1">
-  Login
+<Link to="/login"><button className="login">
+  <span className="front">
+    <div className="login-a">Login</div>
+  </span>
 </button>
 </Link>
-<button className="login2">
-  Sign-up
+<button className="sign-up">
+  <span className="front1">
+    <div className="signup-a">Signup</div>
+  </span>
 </button>
+
     </div>
      );
  }
