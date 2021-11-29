@@ -6,7 +6,7 @@ import {Link } from "react-location"
 
  const Homepage = () => {
      return (
-     <div> 
+     <div>
      <div class="wrapper">
     <div class="typing-demo">
       CodeYourWay

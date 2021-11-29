@@ -7,7 +7,6 @@ return(
      
       <div className="container1">
           <img className="image" src={img}/>
-          
              <div className="head">
                  <h1>Code Your Way</h1>
                  </div>
