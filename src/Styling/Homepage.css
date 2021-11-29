@@ -11,8 +11,32 @@
   align-items: center;
   justify-content: center;
   margin-right: 49%;
+  background: linear-gradient(
+115deg,#4fcf70,#fad648,#a767e5,#12bcfe,#44ce7b);
+margin: 0 auto;
+    width: calc(100% - 8
+rem
+);
+    text-align: center;
+    position: relative;
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: var(--cp-color-1);
+    display: block;
+    z-index: 8;
+    overflow: hidden;
+    padding: 3px;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2%;
+    height: 1%;
   
 }
+
+  
+
 
 .typing-demo {
   width: 76%;
@@ -24,9 +48,7 @@
   font-size: 5em;
   color: white;
   font-family: 'Reggae One', cursive;
-  
 }
-
 @keyframes typing {
   from {
     width: 0
