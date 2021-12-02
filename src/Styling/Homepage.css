@@ -11,29 +11,11 @@
   align-items: center;
   justify-content: center;
   margin-right: 49%;
-  background: linear-gradient(
-115deg,#4fcf70,#fad648,#a767e5,#12bcfe,#44ce7b);
-margin: 0 auto;
-    width: calc(100% - 8
-rem
-);
-    text-align: center;
-    position: relative;
-    border-radius: 6px;
-    box-sizing: border-box;
-    color: var(--cp-color-1);
-    display: block;
-    z-index: 8;
-    overflow: hidden;
-    padding: 3px;
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 2%;
-    height: 1%;
-  
-}
+  width: 50%;
+  /* transform: translate(-50%,-50%); */
+ }
+
+
 
   
 
@@ -48,7 +30,9 @@ rem
   font-size: 5em;
   color: white;
   font-family: 'Reggae One', cursive;
-}
+  
+  text-decoration: none;
+  }
 @keyframes typing {
   from {
     width: 0
@@ -56,10 +40,19 @@ rem
 }
     
 @keyframes blink {
+  
   50% {
     border-color: transparent
   }
 }
+/* @keyframes moving{
+  20%{
+    border-color: red;
+  }
+} */
+
+
+
 
 .login {
   background: #2C394B;
@@ -70,24 +63,20 @@ rem
   outline-offset: 4px;
   margin-left: 10%;
   margin-top: 4%;
-  
 }
 .front {
   display: block;
   padding: 12px 42px;
   border-radius: 5px;
   font-size: 3rem;
-  background: #6D9886;
-  color: white;
+  background: #202040;
+  color: #80FFDB;
   transform: translateY(-6px);
   font-family: 'Aclonica', sans-serif;
   width:120px;
   height:50px;
-  
   margin-top:2%;
-  
- 
-}
+  }
 .login-a{
   width:120%;
   margin-left:-9%;
@@ -118,12 +107,11 @@ margin-left:-13%;
   padding: 12px 42px;
   border-radius: 5px;
   font-size: 3rem;
-  background: #6D9886;
-  color: white;
+  background: #80FFDB;
+  color: #202040;
   transform: translateY(-6px);
   font-family: 'Aclonica', sans-serif;
   width:140px;
   height:50px;
   margin-top:2%;
- 
 }

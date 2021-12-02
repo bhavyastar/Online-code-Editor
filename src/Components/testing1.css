@@ -4,9 +4,9 @@ body {
   background-size: cover;
 }
 .video_player_1 {
-  margin-top: -90px;
-  margin-left: 880px;
-  /* transition: 0.5s all ease-in-out; */
+  margin-top: 200px;
+  margin-left: 850px;
+  transition: 0.5s all ease-in-out;
   display: block;
   transition: all 1.2s cubic-bezier(0.85, 0, 0.15, 1) 0s;
   border: 1px solid rgb(36, 36, 36);
@@ -17,9 +17,11 @@ body {
   transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1)
     translateY(230px);
   object-fit: contain;
+  width: 410px;
+  height: 300px;
 }
 .video_player_1:hover {
-  /* transform: scale(1.2); */
+  transform: scale(1.2);
 }
 
 .lines {
@@ -44,25 +46,11 @@ body {
   word-spacing: 5px;
 }
 .video_player_2 {
-  margin-left: 120px;
-  margin-top: -300px;
+  margin-left: 900px;
+  margin-top: -30px;
   margin-right: -100px;
-  width: 50px;
-  height: 50px;
-  /* transition: 0.5s all ease-in-out; */
-  display: block;
-  transition: all 1.2s cubic-bezier(0.85, 0, 0.15, 1) 0s;
-  border: 1px solid rgb(36, 36, 36);
-  box-shadow: rgb(0 0 0 / 24%) 0px 9.55893px 19.1179px,
-    rgb(0 0 0 / 12%) 0px 9.55893px 4.77946px;
-  border-radius: 4px;
-  opacity: 1;
-  transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1)
-    translateY(230px);
-  object-fit: contain;
-}
-.video_player_3 {
-  margin-top: 100px;
+  width: 400px;
+  height: 270px;
   transition: 0.5s all ease-in-out;
   display: block;
   transition: all 1.2s cubic-bezier(0.85, 0, 0.15, 1) 0s;
@@ -75,15 +63,32 @@ body {
     translateY(230px);
   object-fit: contain;
 }
+.video_player_3 {
+  margin-top: 20px;
+  transition: 0.5s all ease-in-out;
+  display: block;
+  transition: all 1.2s cubic-bezier(0.85, 0, 0.15, 1) 0s;
+  border: 1px solid rgb(36, 36, 36);
+  box-shadow: rgb(0 0 0 / 24%) 0px 9.55893px 19.1179px,
+    rgb(0 0 0 / 12%) 0px 9.55893px 4.77946px;
+  border-radius: 4px;
+  opacity: 1;
+  transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1)
+    translateY(230px);
+  object-fit: contain;
+  width: 350px;
+  height: 450px;
+  margin-left: 1000px;
+}
 .video_player_2:hover {
-  /* transform: scale(1.2); */
+  transform: scale(1.2);
 }
 .video_player_3:hover {
-  /* transform: scale(1.2); */
+  transform: scale(1.2);
 }
 .videos {
-  height: 50px;
-  width: 50px;
+  height: 10px;
+  width: 10px;
   margin-left: -100px;
-  margin-top: -10px;
+  margin-top: 10px;
 }
