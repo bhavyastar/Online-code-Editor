@@ -27,8 +27,9 @@ function Testing1(props) {
           <source src={vid3} type="video/mp4" />
         </video>
 
-</div></div>
-            </div>
+          </div>
+        </div>
+        </div>
             
         
       
