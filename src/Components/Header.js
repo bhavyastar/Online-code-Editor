@@ -1,6 +1,7 @@
 import React from 'react'
 import "../Styling/Header.css"
 import img from "../Images/Logo.png"
+import github2 from "../Images/github2.png"
 
 const Header = () =>{
 return(
@@ -8,10 +9,12 @@ return(
       <div className="container1">
           <img className="image" src={img}/>
              <div className="head">
-                 <h1>Code Your Way</h1>
+                 <h1>CodeYourWay</h1>
                  </div>
               <div className="para">
-                  <p>About Us</p>
+                  <p className="about">About Us</p>
+                  <p className="help">Help</p>
+                  <img className="git" src={github2}/>
                   </div>
           </div>
     
