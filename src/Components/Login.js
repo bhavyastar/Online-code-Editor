@@ -8,8 +8,16 @@ import github from "../Images/github.png"
 import facebook from "../Images/facebook.png"
 import google from "../Images/google.png"
 import vid from "../Videos/Dark Motion Polygon   Free Animation Loop Background and Screensaver.mp4"
+import { googleProvider } from '../config/authMethods';
+import socialMediaAuth from "../service/auth"
+
 
 const Login = () => {
+
+
+  const handleOnClick = async (provider) => {
+    const res = await socialMediaAuth(provider);
+  };
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -52,7 +60,7 @@ const Login = () => {
                 Login
               </Button>
           </Form>
-          <Button className="google"><img className="logos" src={google} alt="" srcset="" />Log In with Google</Button>
+          <Button onClick={()=> handleOnClick(googleProvider)} className="google"><img className="logos" src={google} alt="" srcset="" />Log In with Google</Button>
           <Button className="twitter"><img className="logos" src={twitter} alt="" srcset="" /> Log In with Twitter</Button>
           <Button className="github"><img className="logos" src={github} alt="" srcset="" />Log In with GitHub</Button>
           <Button className="facebook"><img className="logos" src={facebook} alt="" srcset="" />Log In with Facebook</Button>
