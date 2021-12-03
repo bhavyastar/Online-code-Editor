@@ -1,9 +1,9 @@
 import React from 'react'
 import img from "../Images/Logo.png"
 import "./testing1.css"
-import vid1 from "../Videos/pexels-sora-shimazaki-5925291.mp4"
-import vid2 from "../Videos/pexels-mikhail-nilov-6963744.mp4"
-import vid3 from "../Videos/pexels-tima-miroshnichenko-5377647.mp4"
+import vid1 from "../Videos/pexels-mikhail-nilov-6963744.mp4"
+import vid2 from "../Videos/pexels-sora-shimazaki-5925291.mp4"
+import vid3 from "../Videos/Matrix, Console, Hacking, Code.mp4"
 function Testing1(props) {
     return (
       <div className="testing1">
