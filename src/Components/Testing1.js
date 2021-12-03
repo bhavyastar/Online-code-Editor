@@ -1,5 +1,4 @@
 import React from 'react'
-import img from "../Images/Logo.png"
 import "./testing1.css"
 import vid1 from "../Videos/pexels-mikhail-nilov-6963744.mp4"
 import vid2 from "../Videos/pexels-sora-shimazaki-5925291.mp4"
