@@ -1,12 +1,14 @@
 import React from 'react'
-import {Button} from 'react-bootstrap'
 import "../Styling/Homepage.css"
 import {Link } from "react-location"
+import pic from "../Images/pic.jpg"
 
 
  const Homepage = () => {
      return (
-     <div> 
+     <div>
+     <img className ="pic" src = {pic}></img>
+    
      <div class="wrapper">
     <div class="typing-demo">
       CodeYourWay
