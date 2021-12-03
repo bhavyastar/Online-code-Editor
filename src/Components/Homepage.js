@@ -1,13 +1,13 @@
 import React from 'react'
 import "../Styling/Homepage.css"
 import {Link } from "react-location"
-import pic from "../Images/pic.jpg"
+import home from "../Images/home.jpg"
 
 
  const Homepage = () => {
      return (
      <div>
-     <img className ="pic" src = {pic}></img>
+     <img className ="pic" src = {home}></img>
     
      <div class="wrapper">
     <div class="typing-demo">
