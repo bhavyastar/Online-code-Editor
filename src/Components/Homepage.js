@@ -1,14 +1,20 @@
 import React from 'react'
 import "../Styling/Homepage.css"
 import {Link } from "react-location"
+ import pic from "../Images/home.jpg"
 
 
  const Homepage = () => {
      return (
      <div>
+      <img className ="pic" src = {pic}></img> 
+    {/* <div className="border-1"></div> */}
      <div class="wrapper">
     <div class="typing-demo">
       CodeYourWay
+     
+      
+     
     </div>
 </div>
 <Link to="/login"><button className="login">
@@ -22,8 +28,8 @@ import {Link } from "react-location"
     <div className="signup-a">Signup</div>
   </span>
 </button>
-
-    </div>
+</div>
+    
      );
  }
  export default Homepage
