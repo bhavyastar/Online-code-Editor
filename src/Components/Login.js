@@ -8,16 +8,56 @@ import github from "../Images/github.png"
 import facebook from "../Images/facebook.png"
 import google from "../Images/google.png"
 import vid from "../Videos/Dark Motion Polygon   Free Animation Loop Background and Screensaver.mp4"
-import { googleProvider } from '../config/authMethods';
-import socialMediaAuth from "../service/auth"
-
+import  authentication  from "../firebase-config"
+import { signInWithPopup, GoogleAuthProvider, FacebookAuthProvider, GithubAuthProvider, TwitterAuthProvider } from "firebase/auth";
 
 const Login = () => {
 
+  const signInWithGoogle = () => {
+    const provider = new GoogleAuthProvider();
+    signInWithPopup(authentication, provider)
+      .then((re) => {
+        console.log(re);
+      })
+      .catch((err) => {
+        console.log(err);
+    })
+  }
 
-  const handleOnClick = async (provider) => {
-    const res = await socialMediaAuth(provider);
-  };
+  const signInWithFacebook = () => {
+    const provider = new FacebookAuthProvider();
+    signInWithPopup(authentication, provider)
+      .then((re) => {
+        console.log(re);
+      })
+      .catch((err) => {
+        console.log(err);
+    })
+  }
+
+  const signInWithGithub = () => {
+    const provider = new GithubAuthProvider();
+    signInWithPopup(authentication, provider)
+      .then((re) => {
+        console.log(re);
+      })
+      .catch((err) => {
+        console.log(err);
+    })
+  }
+
+  const signInWithTwitter = () => {
+    const provider = new TwitterAuthProvider();
+    signInWithPopup(authentication, provider)
+      .then((re) => {
+        console.log(re);
+      })
+      .catch((err) => {
+        console.log(err);
+    })
+  }
+
+
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -60,10 +100,10 @@ const Login = () => {
                 Login
               </Button>
           </Form>
-          <Button onClick={()=> handleOnClick(googleProvider)} className="google"><img className="logos" src={google} alt="" srcset="" />Log In with Google</Button>
-          <Button className="twitter"><img className="logos" src={twitter} alt="" srcset="" /> Log In with Twitter</Button>
-          <Button className="github"><img className="logos" src={github} alt="" srcset="" />Log In with GitHub</Button>
-          <Button className="facebook"><img className="logos" src={facebook} alt="" srcset="" />Log In with Facebook</Button>
+          <Button onClick={signInWithGoogle} className="google"><img className="logos" src={google} alt="" srcset="" />Log In with Google</Button>
+          <Button onClick={signInWithTwitter} className="twitter"><img className="logos" src={twitter} alt="" srcset="" /> Log In with Twitter</Button>
+          <Button onClick={signInWithGithub} className="github"><img className="logos" src={github} alt="" srcset="" />Log In with GitHub</Button>
+          <Button onClick={signInWithFacebook} className="facebook"><img className="logos" src={facebook} alt="" srcset="" />Log In with Facebook</Button>
           </div>
         </div>
     );
