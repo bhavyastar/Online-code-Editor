@@ -5,16 +5,34 @@
 
 .wrapper {
   height: 10%;
-  margin-top: 20%;
-  /*This part is important for centering*/
+  margin-top: 20%; 
+  
   display: flex;
   align-items: center;
   justify-content: center;
   margin-right: 49%;
   width: 50%;
+  margin-top: -30%;
+  margin-left: 10%; 
+  
+  
   /* transform: translate(-50%,-50%); */
  }
-
+ .pic{
+   width:100%;
+ }
+ .border-1{
+  border-top-width: 4px;
+   border-top-style: solid;
+   border-top-color: blue;
+   width:40%;
+  margin-top:-20%;
+   
+ }
+.pic{
+  width:100%;
+  height: 40%;
+}
 
 
   
@@ -28,9 +46,9 @@
   border-right: 3px solid;
   font-family: monospace;
   font-size: 5em;
-  color: white;
+  color:white;
   font-family: 'Reggae One', cursive;
-  
+
   text-decoration: none;
   }
 @keyframes typing {
@@ -50,7 +68,11 @@
     border-color: red;
   }
 } */
-
+.wrapper:hover{
+border-top: 3px ;
+border-top-color: red;
+border-top-style: solid;
+}
 
 
 
@@ -61,7 +83,7 @@
   padding: 0;
   cursor: pointer;
   outline-offset: 4px;
-  margin-left: 10%;
+  margin-left: 18%;
   margin-top: 4%;
 }
 .front {
@@ -115,3 +137,5 @@ margin-left:-13%;
   height:50px;
   margin-top:2%;
 }
+
+
