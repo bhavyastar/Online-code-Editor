@@ -2,9 +2,9 @@ import React from 'react'
 import "../Styling/Homepage.css"
 import {Link } from "react-location"
  import pic from "../Images/home.jpg"
-
-
- const Homepage = () => {
+ import testing1 from "./Testing1"
+import Testing1 from './Testing1'
+const Homepage = () => {
      return (
      <div>
       <img className ="pic" src = {pic}></img> 
@@ -12,10 +12,7 @@ import {Link } from "react-location"
      <div class="wrapper">
     <div class="typing-demo">
       CodeYourWay
-     
-      
-     
-    </div>
+     </div>
 </div>
 <Link to="/login"><button className="login">
   <span className="front">
@@ -28,6 +25,9 @@ import {Link } from "react-location"
     <div className="signup-a">Signup</div>
   </span>
 </button>
+<div className="video_section">
+<Testing1/>
+</div>
 </div>
     
      );
