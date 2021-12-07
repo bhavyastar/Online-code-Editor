@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
 
 .wrapper {
   height: 10%;
@@ -11,26 +13,19 @@
   margin-right: 49%;
   width: 50%;
   margin-top: -30%;
-  margin-left: 10%; 
+  margin-left: 29%; 
   /* transform: translate(-50%,-50%); */
  }
-
- .pic{
-   width:100%;
- }
-
- .border-1{
-  border-top-width: 4px;
-   border-top-style: solid;
-   border-top-color: blue;
-   width:40%;
-  margin-top:-20%;
-   
- }
-/* .pic{
+ 
+ 
+.pic{
   width:100%;
-  height: 40%;
-} */
+  
+} 
+
+
+  
+
 
 .typing-demo {
   width: 76%;
@@ -63,13 +58,12 @@
 } */
 
 .login {
-  background: #2C394B;
   border-radius: 12px;
   border: none;
   padding: 0;
   cursor: pointer;
   outline-offset: 4px;
-  margin-left: 18%;
+  margin-left: 39%;
   margin-top: 4%;
 }
 .front {
@@ -77,8 +71,8 @@
   padding: 12px 42px;
   border-radius: 5px;
   font-size: 3rem;
-  background: #202040;
-  color: #80FFDB;
+  background: white;
+  color: black;
   transform: translateY(-6px);
   font-family: 'Aclonica', sans-serif;
   width:120px;
@@ -100,7 +94,6 @@ margin-left:-13%;
   transform: translateY(-2px);
 }
 .sign-up{
-  background: #2C394B;
   border-radius: 12px;
   border: none;
   padding: 0;
@@ -115,16 +108,36 @@ margin-left:-13%;
   padding: 12px 42px;
   border-radius: 5px;
   font-size: 3rem;
-  background: #80FFDB;
-  color: #202040;
+  background: white;
+  color: black;
   transform: translateY(-6px);
   font-family: 'Aclonica', sans-serif;
   width:140px;
   height:50px;
   margin-top:2%;
 }
-.video_section{
-  
+
+.scroll{
+  position: absolute;
+  color:white;
+  margin:-11.5% 20% 10% -21%;
+  font-size: 0.75rem;
+  font-family: 'Kanit', sans-serif;
 }
 
+.fas{
+  font-size:1rem;
+  position: absolute;
+  margin-left: -55%;
+  margin-top:25%;
+  animation:Try 1s alternate ease-in-out infinite;
+}
 
+@keyframes Try {
+  from{
+    transform: translateY(0%);
+  }
+  to{
+    transform: translateY(50%);
+  }
+}

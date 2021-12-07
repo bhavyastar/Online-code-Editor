@@ -1,34 +1,37 @@
 import React from 'react'
 import "../Styling/Homepage.css"
 import {Link } from "react-location"
- import pic from "../Images/clu-soh-oga9Xg0KVnU-unsplash.jpg"
- import testing1 from "./Testing1"
-import Testing1 from './Testing1'
+import pic from "../Images/clu-soh-oga9Xg0KVnU-unsplash.jpg"
+import Header from "./Header"
+
+
 const Homepage = () => {
-     return (
-     <div>
-      <img className ="pic" src = {pic}></img> 
-     <div class="wrapper">
-     <div class="typing-demo">
-      CodeYourWay
-     </div>
+  return (
+    <div>
+      <Header />
+        <img className="pic" src={pic} alt="" />
+          <div class="wrapper">
+            <div class="typing-demo">
+              CodeYourWay
+            </div>
+          </div>
+      <Link to="/login">
+        <button className="login">
+          <span className="front">
+            <div className="login-a">Login</div>
+        </span>
+        </button>
+      </Link>
+      <button className="sign-up">
+      <span className="front1">
+        <div className="signup-a">Signup</div>
+      </span>
+      </button>
+      <span className="scroll">
+        scroll for more
+        <i class="fas fa-angle-double-down"></i>
+      </span>
     </div>
-<Link to="/login"><button className="login">
-  <span className="front">
-    <div className="login-a">Login</div>
-  </span>
-</button>
-</Link>
-<button className="sign-up">
-  <span className="front1">
-    <div className="signup-a">Signup</div>
-  </span>
-</button>
-<div className="video_section">
-<Testing1/>
-</div>
-</div>
-    
-     );
- }
- export default Homepage
+);
+}
+export default Homepage
