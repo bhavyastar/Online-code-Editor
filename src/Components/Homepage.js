@@ -1,24 +1,22 @@
 import React from 'react'
 import "../Styling/Homepage.css"
 import {Link } from "react-location"
- import pic from "../Images/home.jpg"
- import testing1 from "./Testing1"
+
+import Header from "./Header.js"
 import Testing1 from './Testing1'
 const Homepage = () => {
      return (
-     <div>
-      <img className ="pic" src = {pic}></img> 
-    {/* <div className="border-1"></div> */}
-    
-     <div class="wrapper">
-    <div class="typing-demo">
-      CodeYourWay
-     </div>
+  <div>
+  <Header />
+  <div class="wrapper">
+  <div class="typing-demo">
+  CodeYourWay
+  </div>
 </div>
 <Link to="/login"><button className="login">
-  <span className="front">
-    <div className="login-a">Login</div>
-  </span>
+<span className="front">
+  <div className="login-a">Login</div>
+</span>
 </button>
 </Link>
 <button className="sign-up">
@@ -30,7 +28,6 @@ const Homepage = () => {
 <Testing1/>
 </div>
 </div>
-    
-     );
+);
  }
  export default Homepage
