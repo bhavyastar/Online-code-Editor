@@ -6,6 +6,10 @@ import vid2 from "../Videos/Matrix, Console, Hacking, Code.mp4"
 function Testing1(props) {
     return (
       <div className="testing1">
+            <div className="lines">
+                {/* <h1 className="first">Wanna do coding together</h1>
+                <h3 className="second">Get started here</h3> */}
+            </div>
             <div className="videos">
             <div >
             <video  className="video_player_1" autoPlay loop muted>
