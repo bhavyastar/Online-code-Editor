@@ -7,17 +7,13 @@
 .wrapper {
   height: 10%;
   margin-top: 20%; 
-  
-  /* display: flex; */
   display: flex;
   align-items: center;
   justify-content: center;
   margin-right: 49%;
   width: 50%;
   margin-top: -30%;
-  margin-left: 10%; 
-  
-  
+  margin-left: 29%; 
   /* transform: translate(-50%,-50%); */
  }
  .pic{
@@ -80,7 +76,7 @@
   padding: 0;
   cursor: pointer;
   outline-offset: 4px;
-  margin-left: 18%;
+  margin-left: 39%;
   margin-top: 4%;
 }
 .front {
