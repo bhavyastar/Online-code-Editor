@@ -3,15 +3,13 @@ import "../Styling/Homepage.css"
 import {Link } from "react-location"
  import pic from "../Images/clu-soh-oga9Xg0KVnU-unsplash.jpg"
  import testing1 from "./Testing1"
+ import Header from "./Header"
 import Testing1 from './Testing1'
 const Homepage = () => {
      return (
-     <div>
-      <img className ="pic" src = {pic}></img> 
-    {/* <div className="border-1"></div> */}
-    
-    
-     <div class="wrapper">
+       <div>
+       <Header/>
+      <div class="wrapper">
      <div class="typing-demo">
       CodeYourWay
      </div>
