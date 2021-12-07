@@ -2,20 +2,15 @@ import React from 'react'
 import "../Styling/Homepage.css"
 import {Link } from "react-location"
 import pic from "../Images/clu-soh-oga9Xg0KVnU-unsplash.jpg"
- import testing1 from "./Testing1"
+ 
+ import Header from "./Header"
 import Testing1 from './Testing1'
 
-import Header from "./Header.js"
-
- 
 const Homepage = () => {
      return (
-     <div>
-      <img className ="pic" src = {pic}></img> 
-    {/* <div className="border-1"></div> */}
-    
-    
-     <div class="wrapper">
+       <div>
+      <img className="pic" src={pic} alt="" />
+      <div class="wrapper">
      <div class="typing-demo">
       CodeYourWay
      </div>
@@ -31,9 +26,7 @@ const Homepage = () => {
     <div className="signup-a">Signup</div>
   </span>
 </button>
-<div className="video_section">
-<Testing1/>
-</div>
+
 </div>
 );
  }

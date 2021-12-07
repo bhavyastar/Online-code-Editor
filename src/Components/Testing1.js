@@ -29,12 +29,7 @@ function Testing1(props) {
           </div>
         </div>
         </div>
-            
-        
-
-      
-    )
+)
 }
-
 export default Testing1
 
