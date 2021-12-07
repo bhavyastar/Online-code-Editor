@@ -12,13 +12,13 @@
   width: 50%;
   margin-top: -30%;
   margin-left: 10%; 
-  
-  
   /* transform: translate(-50%,-50%); */
  }
+
  .pic{
    width:100%;
  }
+
  .border-1{
   border-top-width: 4px;
    border-top-style: solid;
@@ -27,14 +27,10 @@
   margin-top:-20%;
    
  }
-.pic{
+/* .pic{
   width:100%;
   height: 40%;
-}
-
-
-  
-
+} */
 
 .typing-demo {
   width: 76%;
@@ -65,9 +61,6 @@
     border-color: red;
   }
 } */
-
-
-
 
 .login {
   background: #2C394B;

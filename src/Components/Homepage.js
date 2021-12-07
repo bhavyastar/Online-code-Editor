@@ -8,9 +8,6 @@ const Homepage = () => {
      return (
      <div>
       <img className ="pic" src = {pic}></img> 
-    {/* <div className="border-1"></div> */}
-    
-    
      <div class="wrapper">
      <div class="typing-demo">
       CodeYourWay
