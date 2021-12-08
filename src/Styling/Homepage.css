@@ -6,7 +6,7 @@
 
 .wrapper {
   height: 10%;
-  margin-top: 20%; 
+  /* margin-top: 20%;  */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,8 +14,12 @@
   width: 50%;
   margin-top: -30%;
   margin-left: 29%; 
-  /* transform: translate(-50%,-50%); */
+  /*  */
+border-radius: 8px;
+  
  }
+ 
+   
  
  
 .pic{
@@ -29,33 +33,36 @@
 
 .typing-demo {
   width: 76%;
-  animation: typing 2s steps(15), blink .5s step-end infinite alternate;
+  
+animation: animate 6s linear infinite;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 3px solid;
+  
   font-family: monospace;
   font-size: 5em;
   color:white;
   font-family: 'Reggae One', cursive;
   text-decoration: none;
   }
-@keyframes typing {
-  from {
-    width: 0
+  .typing-demo:hover{
+    animation: border 2s linear ;
+   
+    
+  }
+  @keyframes identifier {
+    
+  }
+
+@keyframes animate {
+  0%,10%,100%{
+    width:0;
+  }
+  70%,90%{
+    width:80%;
   }
 }
     
-@keyframes blink {
-  
-  50% {
-    border-color: transparent
-  }
-}
-/* @keyframes moving{
-  20%{
-    border-color: red;
-  }
-} */
+
 
 .login {
   border-radius: 12px;

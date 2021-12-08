@@ -7,9 +7,11 @@ import Header from "./Header"
 
 const Homepage = () => {
   return (
+    <>
     <div>
       <Header />
         <img className="pic" src={pic} alt="" />
+        </div>
           <div class="wrapper">
             <div class="typing-demo">
               CodeYourWay
@@ -31,7 +33,8 @@ const Homepage = () => {
         scroll for more
         <i class="fas fa-angle-double-down"></i>
       </span>
-    </div>
+
+    </>
 );
 }
 export default Homepage
