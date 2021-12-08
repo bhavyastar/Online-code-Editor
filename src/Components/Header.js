@@ -14,7 +14,7 @@ return(
               <div className="para">
                   <p className="about">About Us</p>
                   <p className="help">Help</p>
-                  <img className="git" src={github2}/>
+                 <img className="git" src={github2}/>
                   </div>
           </div>
     
