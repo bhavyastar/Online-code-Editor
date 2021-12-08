@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
 .container1{
-    
     padding-top: 1%;
     display: flex;
     width: 100%;
@@ -35,9 +36,11 @@
 .about{
     padding-right: 30px;
     padding-top: 8%;
+    font-family: 'Kanit', sans-serif;
 }
 .help{
     padding-left: 30px;
+    font-family: 'Kanit', sans-serif;
     width: 50px;
     padding-top: 8%;
 }

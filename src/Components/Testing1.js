@@ -7,8 +7,8 @@ function Testing1(props) {
     return (
       <div className="testing1">
             <div className="lines">
-                <h1 className="first">Wanna do coding together</h1>
-                <h3 className="second">Get started here</h3>
+                {/* <h1 className="first">Wanna do coding together</h1>
+                <h3 className="second">Get started here</h3> */}
             </div>
             <div className="videos">
             <div >
@@ -29,12 +29,7 @@ function Testing1(props) {
           </div>
         </div>
         </div>
-            
-        
-
-      
-    )
+)
 }
-
 export default Testing1
 
