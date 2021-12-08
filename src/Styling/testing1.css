@@ -1,95 +1,76 @@
-<<<<<<< HEAD
 /* body{
   background-color: black;
 } */
-=======
 .testing1{
   position: absolute;
 }
->>>>>>> upstream/main
 .video_player_1 {
-  margin-top: 200px;
+  margin-top: -650px;
   outline: 0px;
   border: none;
-  margin-left: 940px;
-  transition: 0.5s all ease-in-out;
+  margin-left: 600px;
+  /* transition: 0.5s all ease-in-out; */
   display: block;
-  transition: all 1.2s cubic-bezier(0.85, 0, 0.15, 1) 0s;
+  /* transition: all 1.2s cubic-bezier(0.85, 0, 0.15, 1) 0s;
   border: 1px solid rgb(36, 36, 36);
   box-shadow: rgb(0 0 0 / 24%) 0px 9.55893px 19.1179px,
-    rgb(0 0 0 / 12%) 0px 9.55893px 4.77946px;
+    rgb(0 0 0 / 12%) 0px 9.55893px 4.77946px; */
   border-radius: 4px;
-  opacity: 1;
+  /* opacity: 1;
   transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1)
-    translateY(230px);
+    translateY(230px); */
   width: 370px;
+  position:absolute;
   height: 260px;
-}
-.video_player_1:hover {
-  transform: scale(1.4);
-}
 
-/* .lines {
-  color: white;
-  margin-left: 500px;
-} */
-/* .first {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue";
-  color: rgb(255, 255, 255);
-  font-size: 45px;
-  word-spacing: 5px;
-  margin-top: -3px;
 }
-.second {
-  margin-left: 170px;
-  margin-top: 5px;
-  font-size: 25px;
-  color: #999;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue";
-  word-spacing: 5px;
+/* .video_player_1:hover {
+  transform: scale(1.4);
 } */
+
+
 .video_player_2 {
-  margin-left: 1150px;
-  margin-top: -14px;
+  margin-left: 600px;
+  margin-top: -380px;
   margin-right: -100px;
-  width: 350px;
+  width: 370px;
+  position: absolute;
   height: 270px;
-  transition: 0.5s all ease-in-out;
+  /* transition: 0.5s all ease-in-out; */
   display: block;
-  transition: all 1.2s cubic-bezier(0.85, 0, 0.15, 1) 0s;
+  /* transition: all 1.2s cubic-bezier(0.85, 0, 0.15, 1) 0s;
   border: 1px solid rgb(36, 36, 36);
   box-shadow: rgb(0 0 0 / 24%) 0px 9.55893px 19.1179px,
-    rgb(0 0 0 / 12%) 0px 9.55893px 4.77946px;
+    rgb(0 0 0 / 12%) 0px 9.55893px 4.77946px; */
   border-radius: 4px;
   opacity: 1;
-  transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1)
+  /* transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1)
     translateY(230px);
-  
+   */
 }
 .video_player_3 {
-  margin-top: 140px;
-  transition: 0.5s all ease-in-out;
+  margin-top: -100px;
+  position: absolute;
+  /* transition: 0.5s all ease-in-out; */
   display: block;
   transition: all 1.2s cubic-bezier(0.85, 0, 0.15, 1) 0s;
   border: 1px solid rgb(36, 36, 36);
-  box-shadow: rgb(0 0 0 / 24%) 0px 9.55893px 19.1179px,
-    rgb(0 0 0 / 12%) 0px 9.55893px 4.77946px;
+  /* box-shadow: rgb(0 0 0 / 24%) 0px 9.55893px 19.1179px,
+    rgb(0 0 0 / 12%) 0px 9.55893px 4.77946px; */
   border-radius: 4px;
   opacity: 1;
-  transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1)
-    translateY(230px);
-  width: 350px;
+  /* transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1)
+    translateY(230px); */
+  width: 370px;
   height: 250px;
-  margin-left: 1100px;
+  margin-left: 600px;
 }
-.video_player_2:hover {
+/* .video_player_2:hover {
   transform: scale(1.4);
 }
 .video_player_3:hover {
   transform: scale(1.4);
-}
+} */
 .testing1{
   margin-top: 700px;
 }
