@@ -148,3 +148,48 @@ margin-left:-13%;
     transform: translateY(50%);
   }
 }
+
+.fab{
+  color: white;
+  font-size:5rem;
+}
+
+#fab0{
+  animation:Try1 7s linear infinite;
+}
+
+@keyframes Try1 {
+  from
+  {
+    transform: translateX(0%);
+  }
+  to
+  {
+    transform: translateX(300%);
+  }
+}
+
+.trying_animation
+{
+width: 30%;
+margin-left: -53%;
+position: absolute;
+margin-top: -31%;
+transform:rotate(-37deg);
+}
+
+#fab1{
+  margin-left:5%;
+  animation:Try2 7s linear infinite;
+}
+
+@keyframes Try2 {
+  from
+  {
+    transform: translateX(0%);
+  }
+  to
+  {
+    transform: translateX(400%);
+  }
+}

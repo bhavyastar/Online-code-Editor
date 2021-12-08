@@ -11,8 +11,11 @@ const Homepage = () => {
     <div>
       <Header />
         <img className="pic" src={pic} alt="" />
-        </div>
-          <div class="wrapper">
+        <div class="wrapper">
+          <div className="trying_animation">
+            <i id="fab0" class="fab fa-react"></i>
+            <i id="fab1" class="fab fa-html5"></i>
+            </div>
             <div class="typing-demo">
               CodeYourWay
             </div>
@@ -33,7 +36,7 @@ const Homepage = () => {
         scroll for more
         <i class="fas fa-angle-double-down"></i>
       </span>
-
+</div>
     </>
 );
 }
