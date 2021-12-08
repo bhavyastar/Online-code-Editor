@@ -2,14 +2,12 @@ import React from 'react'
 import "../Styling/Homepage.css"
 import {Link } from "react-location"
 import pic from "../Images/clu-soh-oga9Xg0KVnU-unsplash.jpg"
-import Header from "./Header"
-
-
+import Homepage_Header from "../Components/Homepage_Header"
 const Homepage = () => {
   return (
     <>
     <div>
-      <Header />
+      <Homepage_Header/>
         <img className="pic" src={pic} alt="" />
         <div class="wrapper">
           <div className="trying_animation">
