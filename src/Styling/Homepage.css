@@ -43,6 +43,9 @@
   from {
     width: 0
   }
+  to{
+    width:75%;
+  }
 }
     
 @keyframes blink {
