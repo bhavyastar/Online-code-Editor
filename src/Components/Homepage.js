@@ -3,15 +3,14 @@ import "../Styling/Homepage.css"
 import {Link } from "react-location"
 import pic from "../Images/clu-soh-oga9Xg0KVnU-unsplash.jpg"
 import Header from "./Header"
-
-
+import Testing1 from "./Testing1"
 const Homepage = () => {
   return (
-    <>
     <div>
-      <Header />
+    <Header />
+    
         <img className="pic" src={pic} alt="" />
-        </div>
+        
           <div class="wrapper">
             <div class="typing-demo">
               CodeYourWay
@@ -33,8 +32,7 @@ const Homepage = () => {
         scroll for more
         <i class="fas fa-angle-double-down"></i>
       </span>
-
-    </>
+</div>
 );
 }
 export default Homepage

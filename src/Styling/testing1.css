@@ -1,76 +1,50 @@
-/* body{
+body{
   background-color: black;
-} */
+}
 .testing1{
   position: absolute;
 }
 .video_player_1 {
-  margin-top: -650px;
+  margin-top: -580px;
   outline: 0px;
+  animation: mymove infinite;
+  animation-duration: 3s;
+  position:relative;
   border: none;
-  margin-left: 600px;
-  /* transition: 0.5s all ease-in-out; */
+  margin-left: -400px;
   display: block;
-  /* transition: all 1.2s cubic-bezier(0.85, 0, 0.15, 1) 0s;
-  border: 1px solid rgb(36, 36, 36);
-  box-shadow: rgb(0 0 0 / 24%) 0px 9.55893px 19.1179px,
-    rgb(0 0 0 / 12%) 0px 9.55893px 4.77946px; */
   border-radius: 4px;
-  /* opacity: 1;
-  transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1)
-    translateY(230px); */
   width: 370px;
   position:absolute;
   height: 260px;
 
 }
-/* .video_player_1:hover {
-  transform: scale(1.4);
-} */
-
-
+@keyframes mymove{
+  from {left:0px;}
+  to {center:100px;}
+}
 .video_player_2 {
   margin-left: 600px;
-  margin-top: -380px;
+  margin-top: 400px;
   margin-right: -100px;
   width: 370px;
   position: absolute;
   height: 270px;
-  /* transition: 0.5s all ease-in-out; */
   display: block;
-  /* transition: all 1.2s cubic-bezier(0.85, 0, 0.15, 1) 0s;
-  border: 1px solid rgb(36, 36, 36);
-  box-shadow: rgb(0 0 0 / 24%) 0px 9.55893px 19.1179px,
-    rgb(0 0 0 / 12%) 0px 9.55893px 4.77946px; */
   border-radius: 4px;
   opacity: 1;
-  /* transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1)
-    translateY(230px);
-   */
+  
 }
 .video_player_3 {
-  margin-top: -100px;
+  margin-top: -300px;
   position: absolute;
-  /* transition: 0.5s all ease-in-out; */
   display: block;
-  transition: all 1.2s cubic-bezier(0.85, 0, 0.15, 1) 0s;
-  border: 1px solid rgb(36, 36, 36);
-  /* box-shadow: rgb(0 0 0 / 24%) 0px 9.55893px 19.1179px,
-    rgb(0 0 0 / 12%) 0px 9.55893px 4.77946px; */
   border-radius: 4px;
   opacity: 1;
-  /* transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1)
-    translateY(230px); */
   width: 370px;
   height: 250px;
-  margin-left: 600px;
+  margin-left: 1230px;
 }
-/* .video_player_2:hover {
-  transform: scale(1.4);
-}
-.video_player_3:hover {
-  transform: scale(1.4);
-} */
 .testing1{
-  margin-top: 700px;
+  margin-top: 650px;
 }
