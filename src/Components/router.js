@@ -4,7 +4,7 @@ import Homepage from "../Components/Homepage"
 import Login from "../Components/Login"
 import Testing1 from './Testing1';
 import Header from "../Components/Header";
-import Code from "../Components/codeEditor";
+import CodeEditor from "../Components/codeEditor";
 export const routes: Route[] = [
     {
         path: "/",
@@ -24,7 +24,7 @@ export const routes: Route[] = [
     },
     {
     path: "code",
-          element: <codeEditor />
+          element: <CodeEditor />
     }
 ];
 
