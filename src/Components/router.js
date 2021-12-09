@@ -5,7 +5,7 @@ import Login from "../Components/Login"
 import Testing1 from './Testing1';
 import Homepage_Header from "../Components/Homepage_Header"
 import Header from "../Components/Header";
-import Code from "../Components/codeEditor";
+import CodeEditor from "../Components/codeEditor";
 export const routes: Route[] = [
     {
         path: "/",
@@ -25,7 +25,8 @@ export const routes: Route[] = [
     },
     {
     path: "code",
-          element: <codeEditor />
+          element: <CodeEditor />
+          
     },
     {
         path: "h_header",
