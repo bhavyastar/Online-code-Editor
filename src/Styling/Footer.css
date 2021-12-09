@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
+.footer{
+     background-color: black;
+     height: 750px;
+}
+.head{
+    text-align: center;
+    padding-left: 163px;
+    padding-top: 3%;
+    padding-bottom: 30px;
+}
+.middle{
+    height: 300px;
+    background-color: white;
+    margin-top: 4%;
+    margin-bottom: 1%;
+}
+.below{
+    color: white;
+    text-align: center;
+    padding-bottom: 1%;
+    
+}
+.bottom{
+    color: white;
+
+}
+.items{
+    word-spacing: 20px;
+    text-align: center;
+}

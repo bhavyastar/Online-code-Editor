@@ -4,6 +4,7 @@ import Homepage from "../Components/Homepage"
 import Login from "../Components/Login"
 import Testing1 from './Testing1';
 import Homepage_Header from "../Components/Homepage_Header"
+import Footer from './Footer';
 import Header from "../Components/Header";
 import CodeEditor from "../Components/codeEditor";
 export const routes: Route[] = [
@@ -31,7 +32,11 @@ export const routes: Route[] = [
     {
         path: "h_header",
         element: <Homepage_Header/>
-    }
+    },
+    {
+        path: "footer",
+        element: <Footer/>
+    },
 ];
 
 export const location = new ReactLocation();
