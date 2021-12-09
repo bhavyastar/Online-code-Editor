@@ -3,17 +3,18 @@ import "../Styling/Homepage.css"
 import {Link } from "react-location"
 import pic from "../Images/clu-soh-oga9Xg0KVnU-unsplash.jpg"
 import Header from "./Header"
-import Testing1 from "./Testing1"
+
 import Homepage_Header from "../Components/Homepage_Header"
 const Homepage = () => {
   return (
-    <div>
+   
+    <>
     <Header />
     
         <img className="pic" src={pic} alt="" />
         
           <div class="wrapper">
-      <Homepage_Header/>
+        <Homepage_Header/>
         <img className="pic" src={pic} alt="" />
         <div class="wrapper">
           <div className="trying_animation">
@@ -41,7 +42,8 @@ const Homepage = () => {
         <i class="fas fa-angle-double-down"></i>
       </span>
 </div>
-    </>
+</>
+    
 );
 }
 export default Homepage
