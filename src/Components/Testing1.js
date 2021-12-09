@@ -1,17 +1,22 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "../Styling/testing1.css"
 import vid3 from "../Videos/pexels-sora-shimazaki-5925291.mp4"
 import vid1 from "../Videos/pexels-mikhail-nilov-6963744.mp4"
 import vid2 from "../Videos/Matrix, Console, Hacking, Code.mp4"
 import {motion} from "framer-motion";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Testing1(props) {
+  useEffect(()=>{
+    Aos.init({duration:20});
+
+  },[]);
+
+  
     return (
       <div className="testing1">
-        <div className="baksa">
-          <h1>baksa</h1>
-
-        </div>
+        
         
             <div className="videos">
             <motion.div className="vid_1_animate" 
