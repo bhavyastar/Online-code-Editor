@@ -9,6 +9,7 @@ const Homepage = () => {
   return (
     <div>
     <Header />
+    <Testing1/>
     
         <img className="pic" src={pic} alt="" />
         
@@ -41,7 +42,7 @@ const Homepage = () => {
         <i class="fas fa-angle-double-down"></i>
       </span>
 </div>
-    </>
+  </div>
 );
 }
 export default Homepage
