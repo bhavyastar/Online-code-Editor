@@ -9,11 +9,9 @@ const Homepage = () => {
   return (
    
     <>
-    <Header />
+    {/* <Header /> */}
     
-        <img className="pic" src={pic} alt="" />
-        
-          <div class="wrapper">
+        <div>
         <Homepage_Header/>
         <img className="pic" src={pic} alt="" />
         <div class="wrapper">
