@@ -14,44 +14,25 @@
   width: 50%;
   margin-top: -30%;
   margin-left: 29%; 
-  /*  */
-border-radius: 8px;
-  
- }
- 
-   
- 
- 
+  border-radius: 8px;
+}
 .pic{
   width:100%;
   
 } 
-
-
-  
-
-
 .typing-demo {
-  width: 76%;
-  
+width: 76%;
 animation: animate 6s linear infinite;
-  white-space: nowrap;
-  overflow: hidden;
+white-space: nowrap;
+overflow: hidden;
+font-family: monospace;
+font-size: 5em;
+color:white;
+font-family: 'Reggae One', cursive;
+text-decoration: none;
+  }
   
-  font-family: monospace;
-  font-size: 5em;
-  color:white;
-  font-family: 'Reggae One', cursive;
-  text-decoration: none;
-  }
-  .typing-demo:hover{
-    animation: border 2s linear ;
-   
-    
-  }
-  @keyframes identifier {
-    
-  }
+  
 
 @keyframes animate {
   0%,10%,100%{
@@ -94,7 +75,6 @@ animation: animate 6s linear infinite;
 }
 .signup-a{
 margin-left:-13%;
-
 }
 
 .login:active .front , .sign-up:active .front1{
@@ -108,7 +88,6 @@ margin-left:-13%;
   outline-offset: 4px;
   margin-left: 2%;
   margin-top: 4%;
-  
 }
 .front1 {
   display: block;
@@ -123,7 +102,6 @@ margin-left:-13%;
   height:50px;
   margin-top:2%;
 }
-
 .scroll{
   position: absolute;
   color:white;
@@ -131,7 +109,6 @@ margin-left:-13%;
   font-size: 0.75rem;
   font-family: 'Kanit', sans-serif;
 }
-
 .fas{
   font-size:1rem;
   position: absolute;
@@ -139,12 +116,11 @@ margin-left:-13%;
   margin-top:25%;
   animation:Try 1s alternate ease-in-out infinite;
 }
-
 @keyframes Try {
   from{
     transform: translateY(0%);
-  }
-  to{
+}
+to{
     transform: translateY(50%);
   }
 }
