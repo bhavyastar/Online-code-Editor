@@ -9,7 +9,8 @@ const Homepage = () => {
   return (
    
     <>
-    {/* <Header /> */}
+
+    
     
         <div>
         <Homepage_Header/>
@@ -40,8 +41,11 @@ const Homepage = () => {
         <i class="fas fa-angle-double-down"></i>
       </span>
 </div>
+
+  
 </>
     
+
 );
 }
 export default Homepage

@@ -1,19 +1,28 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "../Styling/testing1.css"
 import vid3 from "../Videos/pexels-sora-shimazaki-5925291.mp4"
 import vid1 from "../Videos/pexels-mikhail-nilov-6963744.mp4"
 import vid2 from "../Videos/Matrix, Console, Hacking, Code.mp4"
 import {motion} from "framer-motion";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Testing1(props) {
+  useEffect(()=>{
+    Aos.init({duration:20});
+
+  },[]);
+
+  
     return (
       <div className="testing1">
+        
         
             <div className="videos">
             <motion.div className="vid_1_animate" 
             animate={{
-              x:1100,
-              scale:1.1,
+              x:500,
+              scale:1.7,
               rotateX:0,
               rotateY:0
               
@@ -32,10 +41,16 @@ function Testing1(props) {
           <source src={vid1} type="video/mp4" />
         </video>
         </motion.div>
-{/* <motion.div className="vid_2_animate" 
+
+
+
+
+
+
+<motion.div className="vid_2_animate" 
 animate={{
   x:1100,
-  scale:1.5,
+  scale:1.7,
   rotateX:0,
   rotateY:0
 }}
@@ -53,11 +68,19 @@ transition={{
 <video  className="video_player_2" autoPlay loop muted>
           <source src={vid2} type="video/mp4" />
         </video>
-</motion.div> */}
+</motion.div>
+
+
+
+
+
+
+
+
 <motion.div  className="vid_3_animate"
 animate={{
-  x:-700,
-  scale:1.1,
+  x:-940,
+  scale:1.7,
   rotateX:0,
   rotateY:0
 
@@ -72,7 +95,7 @@ initial={{
 transition={{
   type:"spring",
   stiffness:80,
-  damping:100
+  damping:60
 
 }}>
 <video  className="video_player_3" autoPlay loop muted>
