@@ -7,8 +7,6 @@ return(
      
       <div className="container1">
           <img className="image" src={img} alt=""/>
-             <div className="head">
-                 </div>
               <div className="para">
                   <p className="about">About Us</p>
                   <p className="help">Help</p>
