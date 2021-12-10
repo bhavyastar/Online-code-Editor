@@ -1,22 +1,21 @@
-body{
-  /* background-color: black; */
-}
+
 .testing1{
   position: absolute;
+  
 }
 .video_player_1 {
-  margin-top: -580px;
+  margin-top: -300px;
   outline: 0px;
   animation: mymove infinite;
   animation-duration: 3s;
   position:relative;
   border: none;
-  margin-left: -400px;
+  margin-left: -290px;
   display: block;
   border-radius: 4px;
-  width: 370px;
+  width: 300px;
   position:absolute;
-  height: 260px;
+  height: 200px;
 
 }
 @keyframes mymove{
@@ -24,12 +23,12 @@ body{
   to {center:100px;}
 }
 .video_player_2 {
-  margin-left: 600px;
-  margin-top: 400px;
+  margin-left: -20px;
+  margin-top: -300px;
   margin-right: -100px;
-  width: 370px;
+  width: 260px;
   position: absolute;
-  height: 270px;
+  height: 200px;
   display: block;
   border-radius: 4px;
   opacity: 1;
@@ -41,10 +40,10 @@ body{
   display: block;
   border-radius: 4px;
   opacity: 1;
-  width: 370px;
-  height: 250px;
-  margin-left: 1230px;
+  width: 300px;
+  height: 200px;
+  margin-left: 870px;
 }
 .testing1{
-  margin-top: 650px;
+  margin-top: 1500px;
 }
