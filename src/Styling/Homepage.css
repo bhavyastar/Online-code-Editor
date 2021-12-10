@@ -6,7 +6,6 @@
 
 .wrapper {
   height: 10%;
-  /* margin-top: 20%;  */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -105,7 +104,7 @@ margin-left:-13%;
 .scroll{
   position: absolute;
   color:white;
-  margin:-11.5% 20% 10% -21%;
+  margin:-11.5% 20% 10% -21.5%;
   font-size: 0.75rem;
   font-family: 'Kanit', sans-serif;
 }
@@ -125,13 +124,16 @@ to{
   }
 }
 
-.fab{
+#fab0{
   color: white;
   font-size:5rem;
+  animation:Try1 6s alternate ease-in-out infinite;
 }
 
-#fab0{
-  animation:Try1 7s linear infinite;
+#java{
+  color: white;
+  font-size:5rem;
+  animation:Try1 6s alternate ease-in-out infinite;
 }
 
 @keyframes Try1 {
@@ -141,7 +143,7 @@ to{
   }
   to
   {
-    transform: translateX(300%);
+    transform: translateX(400%);
   }
 }
 
@@ -154,18 +156,98 @@ margin-top: -31%;
 transform:rotate(-37deg);
 }
 
+.trying1_animation
+{
+width: 30%;
+margin-left: 37.5%;
+position: absolute;
+margin-top: -31%;
+transform:rotate(38deg);
+}
+
 #fab1{
-  margin-left:5%;
-  animation:Try2 7s linear infinite;
+  color: white;
+  font-size:5rem;
+  animation:Try2 6s alternate ease-in-out infinite;
+}
+
+#cpp{
+  animation:Try3 6s alternate ease-in-out infinite;
+  width:90px;
+  position:absolute;
 }
 
 @keyframes Try2 {
   from
   {
-    transform: translateX(0%);
+    transform: translateX(400%);
   }
   to
   {
-    transform: translateX(400%);
+    transform: translateX(-20%);
   }
+}
+
+@keyframes Try3 {
+  from
+  {
+    transform: translateX(330%);
+  }
+  to
+  {
+    transform: translateX(-20%);
+  }
+}
+
+#react_logo{
+  position: absolute;
+  color: white;
+  font-size:5rem;
+  margin-top: -53%;
+  margin-left: -7%;
+}
+
+#react0_written{
+  font-size:1rem;
+  position: absolute;
+  font-family: 'Reggae One', cursive;
+  margin-top: -43%;
+  margin-left: -7%;
+  color: white;
+}
+
+#react1_written{
+  font-size:1.1rem;
+  position: absolute;
+  font-family: 'Reggae One', cursive;
+  margin-top: 8%;
+  margin-left: 26%;
+  color: white;
+}
+
+#react2_written{
+  font-size:1.1rem;
+  position: absolute;
+  font-family: 'Reggae One', cursive;
+  margin-top: 8%;
+  margin-left: 70%;
+  color: white;
+}
+
+#react3_written{
+  font-size:1.1rem;
+  position: absolute;
+  font-family: 'Reggae One', cursive;
+  margin-top: 6%;
+  margin-left: 50%;
+  color: white;
+}
+
+#react4_written{
+  font-size:1.1rem;
+  position: absolute;
+  font-family: 'Reggae One', cursive;
+  margin-top: 6%;
+  margin-left: 4%;
+  color: white;
 }
