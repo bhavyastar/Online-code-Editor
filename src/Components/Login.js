@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import "../Styling/Login.css"
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
-import Header_Login from "./Header_Login"
+import HeaderLogin from "./Header_Login"
 import twitter from "../Images/twitter.png"
 import github from "../Images/github.png"
 import facebook from "../Images/facebook.png"
@@ -74,7 +74,7 @@ const Login = () => {
         <video autoPlay loop muted>
           <source src={vid} type="video/mp4" />
         </video>
-        <Header_Login />
+        <HeaderLogin />
           <div className="Login">
             <Form onSubmit={handleSubmit}>
               <Form.Group size="lg" controlId="email">

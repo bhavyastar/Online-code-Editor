@@ -2,23 +2,29 @@ import React from 'react'
 import "../Styling/Homepage.css"
 import {Link } from "react-location"
 import pic from "../Images/clu-soh-oga9Xg0KVnU-unsplash.jpg"
-import Header from "./Header"
+import cpp from "../Images/cpp.png"
 
-import Homepage_Header from "../Components/Homepage_Header"
+import HomepageHeader from "../Components/Homepage_Header"
 const Homepage = () => {
   return (
-   
     <>
 
-    
-    
-        <div>
-        <Homepage_Header/>
+    <HomepageHeader/>
         <img className="pic" src={pic} alt="" />
         <div class="wrapper">
+        <i id="react_logo" class="fab fa-react"></i>
+        <p id="react0_written">REACT</p>
           <div className="trying_animation">
-            <i id="fab0" class="fab fa-react"></i>
-            <i id="fab1" class="fab fa-html5"></i>
+          <i id="java" class="fab fa-java"></i>
+          <img id="cpp" src={cpp} alt="" srcset="" />
+          <p id="react1_written">JAVA</p>
+          <p id="react2_written">C++</p>
+            </div>
+          <div className="trying1_animation">
+            <i id="fab0" class="fab fa-js"></i>
+            <i id="fab1" class="fab fa-bootstrap"></i>
+            <p id="react3_written">JAVASCRIPT</p>
+            <p id="react4_written">BOOTSTRAP</p>
             </div>
             <div class="typing-demo">
               CodeYourWay
@@ -40,12 +46,7 @@ const Homepage = () => {
         scroll for more
         <i class="fas fa-angle-double-down"></i>
       </span>
-</div>
-
-  
 </>
-    
-
 );
 }
 export default Homepage
