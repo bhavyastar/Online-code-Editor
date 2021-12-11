@@ -5,21 +5,21 @@ import vid1 from "../Videos/pexels-mikhail-nilov-6963744.mp4"
 import vid2 from "../Videos/Matrix, Console, Hacking, Code.mp4"
 import {motion} from "framer-motion";
 import Aos from "aos";
-import "aos/dist/aos.css";
+import 'aos/dist/aos.css';
 
 function Testing1(props) {
   useEffect(()=>{
-    Aos.init({duration:20});
+    Aos.init({
+      duration:300});
 
   },[]);
-
   
-    return (
-      <div className="testing1">
-        
-        
-            <div className="videos">
-            <motion.div className="vid_1_animate" 
+  
+  return (
+    <div className="testing1">
+        <div className="videos">
+              
+            <motion.div  className="vid_1_animate" 
             animate={{
               x:500,
               scale:1.7,
@@ -41,13 +41,14 @@ function Testing1(props) {
           <source src={vid1} type="video/mp4" />
         </video>
         </motion.div>
+        
 
 
 
 
 
 
-<motion.div className="vid_2_animate" 
+<motion.div  className="vid_2_animate" 
 animate={{
   x:1100,
   scale:1.7,
