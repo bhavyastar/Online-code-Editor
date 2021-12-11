@@ -3,16 +3,11 @@ import { Route, ReactLocation } from "react-location";
 import Homepage from "../Components/Homepage"
 import Login from "../Components/Login"
 import Testing1 from './Testing1';
-<<<<<<< HEAD
-import Header from "../Components/Header";
 import Code from "../Components/codeEditor";
-
-=======
 import Homepage_Header from "../Components/Homepage_Header"
 import Footer from './Footer';
 import Header from "../Components/Header";
 import CodeEditor from "../Components/codeEditor";
->>>>>>> upstream/main
 export const routes: Route[] = [
     {
         path: "/",
@@ -32,13 +27,9 @@ export const routes: Route[] = [
     },
     {
     path: "code",
-<<<<<<< HEAD
           element: <codeEditor />
-    }
-=======
-          element: <CodeEditor />
-          
     },
+          
     {
         path: "h_header",
         element: <Homepage_Header/>
@@ -47,7 +38,6 @@ export const routes: Route[] = [
         path: "footer",
         element: <Footer/>
     },
->>>>>>> upstream/main
 ];
 
 export const location = new ReactLocation();

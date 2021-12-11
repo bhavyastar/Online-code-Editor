@@ -3,18 +3,18 @@ import "../Styling/Homepage.css"
 import {Link } from "react-location"
 import pic from "../Images/clu-soh-oga9Xg0KVnU-unsplash.jpg"
 import Header from "./Header"
-
+import Testing1 from './Testing1'
 import Homepage_Header from "../Components/Homepage_Header"
 const Homepage = () => {
   return (
    
     <>
-    <Header />
+    
     <Testing1/>
     
-        <img className="pic" src={pic} alt="" />
         
-          <div class="wrapper">
+        
+          
         <Homepage_Header/>
         <img className="pic" src={pic} alt="" />
         <div class="wrapper">
@@ -42,13 +42,10 @@ const Homepage = () => {
         scroll for more
         <i class="fas fa-angle-double-down"></i>
       </span>
-</div>
-<<<<<<< HEAD
-  </div>
-=======
+
+  
 </>
     
->>>>>>> upstream/main
 );
 }
 export default Homepage
