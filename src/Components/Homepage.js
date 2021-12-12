@@ -2,30 +2,24 @@ import React from 'react'
 import "../Styling/Homepage.css"
 import {Link } from "react-location"
 import pic from "../Images/clu-soh-oga9Xg0KVnU-unsplash.jpg"
-<<<<<<< HEAD
-import Header from "./Header"
+
 import Testing1 from './Testing1'
-import Homepage_Header from "../Components/Homepage_Header"
-=======
+
 import cpp from "../Images/cpp.png"
 
 import HomepageHeader from "../Components/Homepage_Header"
->>>>>>> upstream/main
 const Homepage = () => {
   return (
     <>
-<<<<<<< HEAD
     
     <Testing1/>
     
         
         
           
-        <Homepage_Header/>
-=======
+        
 
     <HomepageHeader/>
->>>>>>> upstream/main
         <img className="pic" src={pic} alt="" />
         <div class="wrapper">
         <i id="react_logo" class="fab fa-react"></i>
@@ -62,14 +56,10 @@ const Homepage = () => {
         scroll for more
         <i class="fas fa-angle-double-down"></i>
       </span>
-<<<<<<< HEAD
 
   
 </>
-    
-=======
-</>
->>>>>>> upstream/main
+
 );
 }
 export default Homepage
