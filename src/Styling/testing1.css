@@ -19,16 +19,16 @@ body{
   width: 450px;
   position:absolute;
   height: 400px;
-  transition: left ease 0.5s;
-  overflow: visible;
+  /* transition: left ease 0.5s;
+  overflow: visible; */
   
  
 }
-.video_player_1:hover{
+/* .video_player_1:hover{
   left: 100px;
   position: absolute;
   
-}
+} */
 
 @keyframes mymove{
   from {left:0px;}
