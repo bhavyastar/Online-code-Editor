@@ -6,7 +6,7 @@ import Testing1 from './Testing1';
 import HomepageHeader from "../Components/Homepage_Header";
 import Footer from './Footer';
 import Header from "../Components/Header";
-import Code from "../Components/CodeEditor";
+import Code from "./CodeEditor";
 export const routes: Route[] = [
     {
         path: "/",
