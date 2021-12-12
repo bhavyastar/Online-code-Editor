@@ -6,7 +6,7 @@ import Testing1 from './Testing1';
 import Homepage_Header from "../Components/Homepage_Header"
 import Footer from './Footer';
 import Header from "../Components/Header";
-import codeEditor from "../Components/codeEditor";
+import CodeEditor from "./CodeEditor";
 export const routes: Route[] = [
     {
         path: "/",
@@ -22,11 +22,11 @@ export const routes: Route[] = [
     },
     {
     path: "button",
-        element: <Header />
+        element: <Header/>
     },
     {
     path: "code",
-          element: <codeEditor />
+          element: <CodeEditor />
           
           
     },
