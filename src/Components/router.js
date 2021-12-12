@@ -7,6 +7,8 @@ import Homepage_Header from "../Components/Homepage_Header"
 import Footer from './Footer';
 import Header from "../Components/Header";
 import CodeEditor from "./CodeEditor";
+
+
 export const routes: Route[] = [
     {
         path: "/",
@@ -27,10 +29,7 @@ export const routes: Route[] = [
     {
     path: "code",
           element: <CodeEditor />
-          
-          
     },
-          
     {
         path: "h_header",
         element: <Homepage_Header/>

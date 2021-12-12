@@ -1,48 +1,63 @@
-
+body{
+  background-color: black;
+}
 .testing1{
   position: absolute;
   
 }
+
+
+
 .video_player_1 {
-  margin-top: -300px;
+  margin-top: -450px;
   outline: 0px;
-  animation: mymove infinite;
-  animation-duration: 3s;
   position:relative;
   border: none;
-  margin-left: -290px;
+  margin-left: 20px;
   display: block;
   border-radius: 4px;
-  width: 300px;
+  width: 450px;
   position:absolute;
-  height: 200px;
-
+  height: 400px;
+  transition: left ease 0.5s;
+  overflow: visible;
+  
+ 
 }
+.video_player_1:hover{
+  left: 100px;
+  position: absolute;
+  
+}
+
 @keyframes mymove{
   from {left:0px;}
   to {center:100px;}
 }
+
 .video_player_2 {
-  margin-left: -20px;
-  margin-top: -300px;
+  margin-left: 500px;
+  margin-top: -450px;
   margin-right: -100px;
-  width: 260px;
+  width: 450px;
   position: absolute;
-  height: 200px;
+  height: 400px;
   display: block;
   border-radius: 4px;
+  position: absolute;
   opacity: 1;
   
 }
+
 .video_player_3 {
-  margin-top: -300px;
+  margin-top: -450px;
   position: absolute;
   display: block;
   border-radius: 4px;
   opacity: 1;
-  width: 300px;
-  height: 200px;
-  margin-left: 870px;
+  width: 450px;
+  height: 400px;
+  margin-left: 980px;
 }
 .testing1{
   margin-top: 1500px;

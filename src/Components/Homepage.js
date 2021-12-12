@@ -5,6 +5,9 @@ import pic from "../Images/clu-soh-oga9Xg0KVnU-unsplash.jpg"
 import Header from "./Header"
 import Testing1 from './Testing1'
 import Homepage_Header from "../Components/Homepage_Header"
+
+import Testing1 from './Testing1'
+
 import cpp from "../Images/cpp.png"
 
 import HomepageHeader from "../Components/Homepage_Header"
@@ -20,7 +23,9 @@ const Homepage = () => {
         <Homepage_Header/>
 
     
-        <img className="pic" src={pic} alt="" />
+        
+    
+    <img className="pic" src={pic} alt="" />
         <div class="wrapper">
         <i id="react_logo" class="fab fa-react"></i>
         <p id="react0_written">REACT</p>
@@ -58,9 +63,10 @@ const Homepage = () => {
       </span>
 
   
-</>
+
     
 
+</>
 );
 }
 export default Homepage
