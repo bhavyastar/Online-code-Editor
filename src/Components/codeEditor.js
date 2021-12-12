@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import Editor from './Editor'
 import useLocalStorage from '../hooks/useLocalStorage'
 
-function App() {
+function codeEditor() {
   const [html, setHtml] = useLocalStorage('html', '')
   const [css, setCss] = useLocalStorage('css', '')
   const [js, setJs] = useLocalStorage('js', '')
@@ -33,7 +33,7 @@ function App() {
           value={html}
           onChange={setHtml}
         />
-        <Editorfir 
+        <Editor
           language="css"
           displayName="CSS"
           value={css}
@@ -60,4 +60,4 @@ function App() {
   )
 }
 
-export default App;
+export default codeEditor;
