@@ -13,14 +13,8 @@ const Homepage = () => {
     <>
     
     <Testing1/>
-    
-        
-        
-          
-        
-
     <HomepageHeader/>
-        <img className="pic" src={pic} alt="" />
+    <img className="pic" src={pic} alt="" />
         <div class="wrapper">
         <i id="react_logo" class="fab fa-react"></i>
         <p id="react0_written">REACT</p>
@@ -58,8 +52,9 @@ const Homepage = () => {
       </span>
 
   
-</>
 
+    
+</>
 );
 }
 export default Homepage
