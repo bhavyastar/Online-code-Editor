@@ -13,10 +13,10 @@ body{
   outline: 0px;
   position:relative;
   border: none;
-  margin-left: 20px;
+  margin-left: 10px;
   display: block;
   border-radius: 4px;
-  width: 450px;
+  width: 515px;
   position:absolute;
   height: 400px;
   /* transition: left ease 0.5s;
@@ -36,10 +36,10 @@ body{
 }
 
 .video_player_2 {
-  margin-left: 500px;
+  margin-left: 533px;
   margin-top: -450px;
   margin-right: -100px;
-  width: 450px;
+  width: 490px;
   position: absolute;
   height: 400px;
   display: block;
@@ -55,9 +55,9 @@ body{
   display: block;
   border-radius: 4px;
   opacity: 1;
-  width: 450px;
+  width: 482px;
   height: 400px;
-  margin-left: 980px;
+  margin-left: 1030px;
 }
 .testing1{
   margin-top: 1500px;
