@@ -33,7 +33,7 @@ function App() {
           value={html}
           onChange={setHtml}
         />
-        <Editor
+        <Editorfir 
           language="css"
           displayName="CSS"
           value={css}
