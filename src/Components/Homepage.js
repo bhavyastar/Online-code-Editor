@@ -2,6 +2,9 @@ import React from 'react'
 import "../Styling/Homepage.css"
 import {Link } from "react-location"
 import pic from "../Images/clu-soh-oga9Xg0KVnU-unsplash.jpg"
+import Header from "./Header"
+import Testing1 from './Testing1'
+import Homepage_Header from "../Components/Homepage_Header"
 
 import Testing1 from './Testing1'
 
@@ -13,7 +16,15 @@ const Homepage = () => {
     <>
     
     <Testing1/>
-    <HomepageHeader/>
+    
+        
+        
+          
+        <Homepage_Header/>
+
+    
+        
+    
     <img className="pic" src={pic} alt="" />
         <div class="wrapper">
         <i id="react_logo" class="fab fa-react"></i>
@@ -54,6 +65,7 @@ const Homepage = () => {
   
 
     
+
 </>
 );
 }

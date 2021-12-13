@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import Editor from './Editor'
 import useLocalStorage from '../hooks/useLocalStorage'
 
+
 function CodeEditor() {
   const [html, setHtml] = useLocalStorage('html', '')
   const [css, setCss] = useLocalStorage('css', '')
@@ -59,5 +60,4 @@ function CodeEditor() {
     </>
   )
 }
-
 export default CodeEditor;
