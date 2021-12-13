@@ -23,12 +23,18 @@ export const routes: Route[] = [
         element:<Testing1/>
     },
     {
+
     path: "button",
         element: <Header/>
     },
+    
+
+      
     {
-    path: "code",
-          element: <CodeEditor />
+        path: "code",
+        element: <CodeEditor />
+          
+
     },
     {
         path: "h_header",

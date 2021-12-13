@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import "../Styling/testing1.css"
-import vid3 from "../Videos/pexels-sora-shimazaki-5925291.mp4"
-import vid1 from "../Videos/pexels-mikhail-nilov-6963744.mp4"
-import vid2 from "../Videos/Matrix, Console, Hacking, Code.mp4"
+import vid3 from "../Videos/javascript video.mp4"
+import vid1 from "../Videos/c++ video.mp4"
+import vid2 from "../Videos/react video.mp4"
 import {motion} from "framer-motion";
 import Aos from "aos";
 import 'aos/dist/aos.css';
