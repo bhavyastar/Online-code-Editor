@@ -9,8 +9,7 @@ import 'aos/dist/aos.css';
 
 function Testing1(props) {
   useEffect(()=>{
-    Aos.init({
-      duration:2000});
+    Aos.init({duration:2000});
 
   },[]);
 
