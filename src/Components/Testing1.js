@@ -1,16 +1,15 @@
 import React, { useEffect, useState } from 'react'
 import "../Styling/testing1.css"
-import vid3 from "../Videos/javascript video.mp4"
-import vid1 from "../Videos/c++ video.mp4"
-import vid2 from "../Videos/react video.mp4"
+import vid3 from "../Videos/javascipr trimmed.mp4"
+import vid1 from "../Videos/c++ video compressed.mp4"
+import vid2 from "../Videos/react trimmed.mp4"
 import {motion} from "framer-motion";
 import Aos from "aos";
 import 'aos/dist/aos.css';
 
 function Testing1(props) {
   useEffect(()=>{
-    Aos.init({
-      duration:2000});
+    Aos.init({duration:2000});
 
   },[]);
 
