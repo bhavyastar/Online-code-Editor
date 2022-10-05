@@ -2,15 +2,13 @@ import React from 'react'
 import "../Styling/Homepage.css"
 import {Link } from "react-location"
 import pic from "../Images/clu-soh-oga9Xg0KVnU-unsplash.jpg"
-import Header from "./Header"
 import Testing1 from './Testing1'
-import Homepage_Header from "../Components/Homepage_Header"
+import Homepageheader from "../Components/Homepage_Header"
 
-import Testing1 from './Testing1'
+
 
 import cpp from "../Images/cpp.png"
 
-import HomepageHeader from "../Components/Homepage_Header"
 const Homepage = () => {
   return (
     <>
@@ -20,7 +18,7 @@ const Homepage = () => {
         
         
           
-        <Homepage_Header/>
+        <Homepageheader/>
 
     
         
